@@ -10,3 +10,4 @@ Digital Innovation One (DIO) is an educational platform that offers free, certif
 - Lógica de Programação Essencial / Essentials of Logic Programming [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/E39FEFFF/)
 - Introdução ao Git e GitHub / Introduction to Git and GitHub [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/D16DD58F/)
 - Projetos ágeis com SCRUM / Agile project management with Scrum [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/680C0837/)
+- Primeiros passos para Desenvolvimento Web / Web Development First Steps [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/CC34AFDF/)
