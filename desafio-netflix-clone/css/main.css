@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --primary-red: #E50914;
+  --primary-black: #141414;
+  --secondary-subtle: #aaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary-black);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--primary-red);
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .2rem;
+  font-size: 3rem;
+  padding: 0 8px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--secondary-subtle);
+  padding: 8px;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+/* main games */
+.main-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.video-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-movie {
+  font-size: 1em;
+  height: 70vh;
+  width: 100%;
+  /* background: linear-gradient(rgba(0,0,0,.5) 0%, rgba(0,0,0, .5) 100%), url('../img/elden-ring-maleniajpeg.jpeg'); */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  margin: 0 24px;
+}
+
+.main-movie .container {
+  width: 40%;
+  position: absolute;
+}
+
+.movie-title {
+  font-size: 3em;
+}
+
+.movie-overview {
+  margin-bottom: 32px;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+/* carousel */
+
+.movie-poster {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.carousel-movies {
+  margin-top: 8px;
+}
+
+/* 
+TODO: @media
+*/
