@@ -3,13 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="stylesheet" href="css/main.css">
+  <!-- owl css -->
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+  
+  <script src="https://kit.fontawesome.com/a47955b28c.js" crossorigin="anonymous" defer></script>
+  <!-- owl css -->
+  <script src="js/owl/jquery.min.js" defer></script>
+  <script src="js/owl/owl.carousel.min.js" defer></script>
+  
+  <script src="js/main.js" defer></script>
+  
+
   <title>Netflix Clone</title>
 </head>
 <body>
   <header>
     <div class="container">
-      <h2 class="logo">Netflix</h2>
+      <h2 class="logo">GameFlix</h2>
       <nav>
         <a href="#">Início</a>
         <a href="#">Séries</a>
@@ -21,19 +34,83 @@
 
   <main>
     <div class="main-movie">
+      <div class="video-container">
+        <video playsinline autoplay muted loop class="main-video">
+          <source src="/videos/elden-ring-header-animated.webm" type="video/webm">
+          <source src="/videos/elden-ring-header-animated.mp4" type="video/mp4">
+        </video>
+      </div>
       <div class="container">
-        <h3 class="movie-title">The Fall (2006)</h3>
-        <p class="movie-overview">In a hospital on the outskirts of 1920s Los Angeles, an injured stuntman begins to tell a fellow patient, a little girl with a broken arm, a fantastic story about 5 mythical heroes. Thanks to his fractured state of mind and her vivid imagination, the line between fiction and reality starts to blur as the tale advances.</p>
+        <h3 class="movie-title">ELDEN RING</h3>
+        <p class="movie-overview">Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between. In the Lands Between ruled by Queen Marika the Eternal, the Elden Ring, the source of the Erdtree, has been shattered. Marika's offspring, demigods all, claimed the shards of the Elden Ring known as the Great Runes, and the mad taint of their newfound strength triggered a war: The Shattering. A war that meant abandonment by the Greater Will. And now the guidance of grace will be brought to the Tarnished who were spurned by the grace of gold and exiled from the Lands Between. Ye dead who yet live, your grace long lost, follow the path to the Lands Between beyond the foggy sea to stand before the Elden Ring. And become the Elden Lord.</p>
         <div class="btn-container">
           <button role="button" class="btn">
+            <i class="fa-solid fa-play fa-lg"></i>
             Play
           </button>
           <button role="button" class="btn">
+            <i class="fa-solid fa-circle-info fa-lg"></i>
             More Info
           </button>
         </div>
       </div>
     </div>
+    </div>
   </main>
+
+  <div class="carousel-movies">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="movie-poster" src="img/poster_01.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_02.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_03.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_04.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_05.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_06.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_07.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_08.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_09.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_10.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_11.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_12.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_13.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_14.png" alt="">
+      </div>
+      <div class="item">
+        <img class="movie-poster" src="img/poster_15.png" alt="">
+      </div>
+  </div>
 </body>
 </html>
+
+<!-- 
+TODO: change nav itens
+TODO: add rows 4 each menu option
+TODO: add title for game rows (ie "recently added" ...) 
+-->
