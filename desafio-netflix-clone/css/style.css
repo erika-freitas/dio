@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --primary-red: #E50914;
+  --primary-black: #141414;
+  --secondary-subtle: #aaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary-black);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--primary-red);
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .2rem;
+  font-size: 3rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--secondary-subtle);
+  padding: 8px;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+/* main movie */
+.main-movie {
+  font-size: 1em;
+  background: linear-gradient(rgba(0,0,0,.5) 0%, rgba(0,0,0, .5) 100%), url('/img/the-fall_bg.jpg');
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.movie-overview {
+  margin-bottom: 32px;
+}
