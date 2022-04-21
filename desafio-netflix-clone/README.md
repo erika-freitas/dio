@@ -1,8 +1,11 @@
 # Gameflix, a Netflix Clone
 
-[![Watch the video](https://imgur.com/wZodR6l.png)](https://youtu.be/TFuAggAba2k)
+![preview1](https://j.gifs.com/79M5Vr.gif)
+
+![preview2](https://j.gifs.com/LZGoBA.gif)
 
 
+---
 ### Special thanks and resources
 
 - [Felipe Aguiar (DIO) original project](https://github.com/felipeAguiarCode/netflix-clone)
