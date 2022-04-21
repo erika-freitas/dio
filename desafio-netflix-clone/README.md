@@ -1,8 +1,6 @@
 # Gameflix, a Netflix Clone
 
-![preview1](/img/preview1.gif)
-
-![preview2](/img/preview2.gif)
+[![Watch the video](https://imgur.com/FEbxBwo.png)](https://youtu.be/TFuAggAba2k)
 
 
 ---
