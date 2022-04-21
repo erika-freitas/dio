@@ -1,8 +1,8 @@
 # Gameflix, a Netflix Clone
 
-![preview1](https://j.gifs.com/79M5Vr.gif)
+![preview1](/img/preview1.gif)
 
-![preview2](https://j.gifs.com/LZGoBA.gif)
+![preview2](/img/preview2.gif)
 
 
 ---
