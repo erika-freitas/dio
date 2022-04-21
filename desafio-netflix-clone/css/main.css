@@ -171,6 +171,59 @@ li i {
 li i:hover{
   color: #aaa;
 }
-/* 
-TODO: @media
-*/
+
+@media only screen and (max-width: 1024px) {
+  .main-game .container {
+    width: 50%;
+    margin-top: 32px;
+  }
+
+  .game-overview {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .main-game .container {
+    width: 60%;
+  }
+
+  .game-overview {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .main-game .container {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .game-overview{
+    display: none;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+  }
+
+  .btn {
+    width: 10rem;
+  }
+}
