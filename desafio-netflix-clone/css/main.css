@@ -143,6 +143,34 @@ header nav a:hover{
   margin-top: 8px;
 }
 
+/* footer */
+
+footer {
+  width: 100%;
+  border-top: #aaa 1px solid;
+  padding: 16px;
+  margin: 24px 0 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+li i {
+  color: white;
+  transition: .3s ease all;
+}
+
+li i:hover{
+  color: #aaa;
+}
 /* 
 TODO: @media
 */
