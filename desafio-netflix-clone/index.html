@@ -22,95 +22,231 @@
 <body>
   <header>
     <div class="container">
-      <h2 class="logo">GameFlix</h2>
+      <a href="#home"><h2 class="logo">GameFlix</h2></a>
       <nav>
-        <a href="#">Início</a>
-        <a href="#">Séries</a>
-        <a href="#">Filmes</a>
-        <a href="#">Documentários</a>
+        <a href="#home">Home</a>
+        <a href="#new">New & Popular</a>
+        <a href="#ps">PlayStation</a>
+        <a href="#nintendo">Nintendo</a>
+        <a href="#indie">Indie</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <div class="main-movie">
+    <div id="home" class="main-game">
       <div class="video-container">
         <video playsinline autoplay muted loop class="main-video">
-          <source src="/videos/elden-ring-header-animated.webm" type="video/webm">
-          <source src="/videos/elden-ring-header-animated.mp4" type="video/mp4">
+          <source src="https://static.bandainamcoent.eu/video/elden-ring-autoplay-launch-trailer.webm" type="video/webm">
+          <source src="https://static.bandainamcoent.eu/video/elden-ring-autoplay-launch-trailer.mp4" type="video/mp4">
         </video>
       </div>
       <div class="container">
-        <h3 class="movie-title">ELDEN RING</h3>
-        <p class="movie-overview">Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between. In the Lands Between ruled by Queen Marika the Eternal, the Elden Ring, the source of the Erdtree, has been shattered. Marika's offspring, demigods all, claimed the shards of the Elden Ring known as the Great Runes, and the mad taint of their newfound strength triggered a war: The Shattering. A war that meant abandonment by the Greater Will. And now the guidance of grace will be brought to the Tarnished who were spurned by the grace of gold and exiled from the Lands Between. Ye dead who yet live, your grace long lost, follow the path to the Lands Between beyond the foggy sea to stand before the Elden Ring. And become the Elden Lord.</p>
+        <img src="/img/logo.png" alt="" class="game-title" />
+        <p class="game-overview">In the Lands Between ruled by Queen Marika the Eternal, the Elden Ring, the source of the Erdtree, has been shattered. Marika's offspring, demigods all, claimed the shards of the Elden Ring known as the Great Runes, and the mad taint of their newfound strength triggered a war: The Shattering. A war that meant abandonment by the Greater Will. And now the guidance of grace will be brought to the Tarnished who were spurned by the grace of gold and exiled from the Lands Between.</p>
         <div class="btn-container">
-          <button role="button" class="btn">
-            <i class="fa-solid fa-play fa-lg"></i>
-            Play
-          </button>
-          <button role="button" class="btn">
-            <i class="fa-solid fa-circle-info fa-lg"></i>
-            More Info
-          </button>
+          <a href="https://www.youtube.com/watch?v=Avn2hKZ0cmo" target="_blank">
+            <button role="button" class="btn">
+              <i class="fa-solid fa-play fa-lg"></i>
+              Play
+            </button>
+          </a>
+          <a href="https://eldenring.bn-ent.net/en/" target="_blank">
+            <button role="button" class="btn">
+              <i class="fa-solid fa-circle-info fa-lg"></i>
+              More Info
+            </button>
+          </a>
         </div>
       </div>
     </div>
     </div>
   </main>
 
-  <div class="carousel-movies">
+  <div id="new" class="carousel-games">
+    <h4 class="carousel-title">New & Popular</h4>
     <div class="owl-carousel owl-theme">
       <div class="item">
-        <img class="movie-poster" src="img/poster_01.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2gvu.png" alt="Horizon Forbidden West">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_02.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3d03.png" alt="Pokémon Legends Arceus">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_03.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4h5s.png" alt="Sifu">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_04.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3p5f.png" alt="Ghost of Tsushima">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_05.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2wsp.png" alt="The Binding of Isaac Repentance">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_06.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2ve1.png" alt="Disco Elysium The Final Cut">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_07.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2h4f.png" alt="Nier Replicant">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_08.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2zpu.png" alt="Resident Evil Village">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_09.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1r0o.png" alt="The Last os Us Part II">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_10.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2dwe.png" alt="Spider-Man Miles Morales">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_11.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.png" alt="Hades">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_12.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2a23.png" alt="Sekiro Shadows Die Twice">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_13.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2ewb.png" alt="Control Ultimate Edition">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_14.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2a31.png" alt="Ghostwire Tokyo">
       </div>
       <div class="item">
-        <img class="movie-poster" src="img/poster_15.png" alt="">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2mhj.png" alt="Back 4 Blood">
       </div>
   </div>
+
+  <div id="ps" class="carousel-games">
+    <h4 class="carousel-title">PlayStation</h4>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.png" alt="Elden Ring">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co31k4.png" alt="Dying Light 2">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2gvu.png" alt="Horizon Forbidden West">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2t97.png" alt="It Takes Two">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2kj9.png" alt="Demon's Souls">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co29lc.png" alt="Kena: Bridge of Spirits">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3wc1.png" alt="Returnal">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2g84.png" alt="Gran Turismo 7">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2xss.png" alt="Hood: Outlaws & Legends">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.png" alt="God of War">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2crj.png" alt="Ghost of Tsushima">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1r0o.png" alt="The Last of Us Part II">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co316v.png" alt="Death Stranding">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1m4w.png" alt="Remnant: From the Ashes">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co28yb.png" alt="LEGO Star Wars: The Skywalker Saga">
+      </div>
+  </div>
+
+  <div id="nintendo" class="carousel-games">
+    <h4 class="carousel-title">Nintendo</h4>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3d03.png" alt="Pokémon Legends Arceus">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3vlw.png" alt="Kirby and the Forgotten Land">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co39zx.png" alt="Metroid Dread">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3wls.png" alt="Animal Crossing New Horizons">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3ga8.png" alt="Mario Party Superstars">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.png" alt="The Legend of Zelda: Breath of the Wild">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co22a9.png" alt="Luigi's Mansion 3">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2255.png" alt="Super Smash Bros. Ultimate">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co25zh.png" alt="Splatoon 2">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3p4a.png" alt="Hyrule Warriors: Age of Calamity">
+      </div>
+  </div>
+
+  <div id="indie" class="carousel-games">
+    <h4 class="carousel-title">Indie</h4>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2855.png" alt="Undertale">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co49fq.png" alt="Cuphead">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.png" alt="Hades">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co3byy.png" alt="Celeste">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.png" alt="Hollow Knight">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/xrpmydnu9rpxvxfjkiu7.png" alt="Stardew Valley">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1sfj.png" alt="Disco Elysium">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co276m.png" alt="Super Meat Boy">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1vqp.png" alt="Hotline Miami">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1vqc.png" alt="Untitled Goose Game">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1qll.png" alt="The Binding of Isaac">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgj.png" alt="Dead Cells">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1qv5.png" alt="Gris">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2hqt.png" alt="Baba is You">
+      </div>
+      <div class="item">
+        <img class="game-poster" src="https://images.igdb.com/igdb/image/upload/t_cover_big/co2fca.png" alt="Inside">
+      </div>
+  </div>
+
 </body>
 </html>
-
-<!-- 
-TODO: change nav itens
-TODO: add rows 4 each menu option
-TODO: add title for game rows (ie "recently added" ...) 
--->

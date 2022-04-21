@@ -18,6 +18,14 @@ body {
   color: white;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--primary-black);
+}
+
 header .container {
   display: flex;
   flex-direction: row;
@@ -64,11 +72,10 @@ header nav a:hover{
   justify-content: center;
 }
 
-.main-movie {
+.main-game {
   font-size: 1em;
   height: 70vh;
   width: 100%;
-  /* background: linear-gradient(rgba(0,0,0,.5) 0%, rgba(0,0,0, .5) 100%), url('../img/elden-ring-maleniajpeg.jpeg'); */
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -76,20 +83,27 @@ header nav a:hover{
   align-items: flex-start;
 }
 
+.main-game a, header a {
+  text-decoration: none;
+}
+
 .container {
   margin: 0 24px;
 }
 
-.main-movie .container {
+.main-game .container {
   width: 40%;
   position: absolute;
 }
 
-.movie-title {
-  font-size: 3em;
+.game-title {
+  margin-bottom: 24px;
+  width: 70%;
 }
 
-.movie-overview {
+.game-overview {
+  font-size: 1.3em;
+  line-height: 1.3em;
   margin-bottom: 32px;
 }
 
@@ -100,6 +114,7 @@ header nav a:hover{
   padding: 15px 30px;
   cursor: pointer;
   transition: .3s ease all;
+  margin-right: 8px;
 }
 
 .btn:hover{
@@ -113,13 +128,18 @@ header nav a:hover{
 
 /* carousel */
 
-.movie-poster {
+.carousel-title {
+  margin: 24px 0 24px 24px;
+  font-size: 1.8em; 
+}
+
+.game-poster {
   height: auto;
   width: 100%;
   display: block;
 }
 
-.carousel-movies {
+.carousel-games {
   margin-top: 8px;
 }
 
