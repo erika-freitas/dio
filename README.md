@@ -18,6 +18,12 @@ Digital Innovation One (DIO) is an educational platform that offers free, certif
 - Primeiros passos para Desenvolvimento Web / Web Development First Steps [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/CC34AFDF/)
 - Introdução a criação de websites com HTML5 e CSS3 / Creating websites with HTML5 and CSS3 [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/E240350A/)
 - Construindo páginas para internet com Bootstrap / Building web pages with Bootstrap [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/5638AFCF/)
+- Coleções Chaveadas / Keyed collections [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/3899FCE2)
+- Debugging & Error Handling [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/3D5010E4/)
+- Javascript Assíncrono / Asynchronous JavaScrip [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/5808A7A8/)
+- Orientação a Objetos / Object-oriented Javascript  [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/61888A27/)
+- Map, Filter & Reduce [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/FCA74A42/)
+- Manipulando DOM com Javascript / DOM Manipulation [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/2AD15625/)
 
 ---
 
