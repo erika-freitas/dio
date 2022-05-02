@@ -25,6 +25,7 @@ Digital Innovation One (DIO) is an educational platform that offers free, certif
 - Orientação a Objetos / Object-oriented Javascript  [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/61888A27/)
 - Map, Filter & Reduce [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/FCA74A42/)
 - Manipulando DOM com Javascript / DOM Manipulation [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/2AD15625/)
+- Posicionando elementos com Flexbox em CSS / Positioning elements with Flexbox in CSS  [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/B36A8D36/)
 
 ---
 
