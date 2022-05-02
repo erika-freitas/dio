@@ -7,6 +7,7 @@ Digital Innovation One (DIO) is an educational platform that offers free, certif
 ## Challenges:
 
 - [Netflix Clone](https://github.com/erika-freitas/dio/tree/main/desafio-netflix-clone)
+- [Instagram Login Page](https://github.com/erika-freitas/dio/tree/main/desafio-instagram-login)
 
 
 ## Completed courses:
