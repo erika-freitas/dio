@@ -39,8 +39,7 @@ Digital Innovation One (DIO) is an educational platform that offers free, certif
 - Orientação a Objetos / Object-oriented Javascript  [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/61888A27/)
 - Trabalhando com Módulos em JavaScript / Javascript Modules [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/8D477D46/)
 - Manipulando DOM com Javascript / DOM Manipulation [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/2AD15625/)
-
 - Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces / Introduction to TypeScript: exploring classes, types and interfaces  [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/C7C93831/)
-- 
+- MySQL - Trabalhando com as suas primeiras tabelas / Introduction to MySQL  [![certificado](https://img.icons8.com/dusk/20/000000/contract.png)](https://www.dio.me/certificate/823FA0B8/)
 
 
